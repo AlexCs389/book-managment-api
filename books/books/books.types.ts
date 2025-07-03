@@ -10,3 +10,9 @@ export interface CreateBookPayload {
   author: string;
   price: number;
 }
+
+export interface UpdateBookPayload {
+  title: string;
+  author: string;
+  price: number;
+}
